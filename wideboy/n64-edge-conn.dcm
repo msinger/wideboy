@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP N64-EDGE-CONN
+D N64 Cartridge Connector, double row, 02x25
+K connector
+$ENDCMP
+#
+#End Doc Library
