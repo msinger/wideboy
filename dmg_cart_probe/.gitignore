@@ -1,3 +1,5 @@
+/dmg_cart_probe-backups/
+/fp-info-cache
 *.bak
 *.kicad_pcb-bak
 *.bck
@@ -7,3 +9,5 @@
 *.ses
 *.rules
 *.bin
+~*.lck
+\#auto_saved_files\#
