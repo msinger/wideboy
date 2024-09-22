@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Wide-Boy64 AGB")
-		(date "2024-06-20")
-		(rev "2")
+		(date "2024-09-22")
+		(rev "3")
 		(company "CC-BY-SA-4.0 Michael Singer")
 		(comment 1 "https://github.com/msinger/wideboy/")
 		(comment 2 "http://iceboy.a-singer.de/")

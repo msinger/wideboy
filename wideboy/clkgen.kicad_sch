@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Wide-Boy64 AGB")
-		(date "2024-06-20")
-		(rev "2")
+		(date "2024-09-22")
+		(rev "3")
 		(company "CC-BY-SA-4.0 Michael Singer")
 		(comment 1 "https://github.com/msinger/wideboy/")
 		(comment 2 "http://iceboy.a-singer.de/")
@@ -2433,7 +2433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 102.87 74.295 0)
 			(effects
 				(font
@@ -2502,7 +2502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "38p"
 			(at 94.615 102.87 0)
 			(effects
 				(font
@@ -2571,7 +2571,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "40p"
 			(at 81.915 102.87 0)
 			(effects
 				(font
@@ -2969,7 +2969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "40p"
 			(at 191.135 87.63 0)
 			(effects
 				(font
@@ -3038,7 +3038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "38p"
 			(at 178.435 87.63 0)
 			(effects
 				(font
@@ -3239,8 +3239,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
-			(at 161.29 69.215 0)
+		(property "Value" "150n"
+			(at 166.37 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,8 +3503,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
-			(at 161.29 91.44 0)
+		(property "Value" "150n"
+			(at 161.29 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3920,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 184.15 137.795 0)
 			(effects
 				(font

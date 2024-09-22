@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Wide-Boy64 AGB")
-		(date "2024-06-20")
-		(rev "2")
+		(date "2024-09-22")
+		(rev "3")
 		(company "CC-BY-SA-4.0 Michael Singer")
 		(comment 1 "https://github.com/msinger/wideboy/")
 		(comment 2 "http://iceboy.a-singer.de/")
@@ -1302,12 +1302,6 @@
 		(uuid "0e1057fd-44ab-4e2b-8d0e-6a1abe186b16")
 	)
 	(junction
-		(at 119.38 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ae9ca8b-7fa8-4e29-9c4e-55ca813aeffa")
-	)
-	(junction
 		(at 86.36 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1403,6 +1397,12 @@
 		(color 0 0 0 0)
 		(uuid "f2c34e52-9f91-4766-abdd-90559e6d5224")
 	)
+	(junction
+		(at 120.65 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8bb74f4-25be-40ca-853d-e5860d1108b9")
+	)
 	(no_connect
 		(at 167.64 91.44)
 		(uuid "f67465b6-c170-4da7-8b90-3c9e791faf62")
@@ -1493,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 114.3 101.6)
+			(xy 127 101.6) (xy 115.57 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1513,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 109.22) (xy 124.46 124.46)
+			(xy 125.73 109.22) (xy 125.73 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +1553,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 114.3 124.46)
+			(xy 115.57 101.6) (xy 115.57 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1573,13 +1573,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 127 106.68)
+			(xy 120.65 106.68) (xy 127 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "262b86a6-dbf5-41f7-aae7-9b9dccf49077")
+		(uuid "240fed3a-bed5-4830-9332-3b36dcff9b7b")
 	)
 	(wire
 		(pts
@@ -1673,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 106.68) (xy 119.38 106.68)
+			(xy 86.36 106.68) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2113,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 124.46 109.22)
+			(xy 127 109.22) (xy 125.73 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 119.38 114.3)
+			(xy 120.65 106.68) (xy 120.65 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 121.92) (xy 119.38 124.46)
+			(xy 120.65 121.92) (xy 120.65 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2886,7 +2886,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 118.11 0)
+		(at 120.65 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2894,7 +2894,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d37f3b")
 		(property "Reference" "C20"
-			(at 120.015 115.57 0)
+			(at 121.285 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2902,8 +2902,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
-			(at 120.015 120.65 0)
+		(property "Value" "1µ"
+			(at 121.285 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +2912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.3452 121.92 0)
+			(at 121.6152 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +2921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 118.11 0)
+			(at 120.65 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +2930,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 118.11 0)
+			(at 120.65 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,8 +2971,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
-			(at 109.855 120.65 0)
+		(property "Value" "680n"
+			(at 109.982 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 99.695 120.65 0)
 			(effects
 				(font
@@ -3093,7 +3093,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 124.46 0)
+		(at 125.73 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3101,7 +3101,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d38149")
 		(property "Reference" "#PWR02"
-			(at 124.46 130.81 0)
+			(at 125.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3110,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 128.27 0)
+			(at 125.73 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 124.46 0)
+			(at 125.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 124.46 0)
+			(at 125.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3136,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 124.46 0)
+			(at 125.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3158,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 124.46 0)
+		(at 120.65 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3166,7 +3166,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d3816b")
 		(property "Reference" "#PWR03"
-			(at 119.38 130.81 0)
+			(at 120.65 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,7 +3175,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 128.27 0)
+			(at 120.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 124.46 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +3192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 124.46 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3201,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 124.46 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3223,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 124.46 0)
+		(at 115.57 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3231,7 +3231,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d3818d")
 		(property "Reference" "#PWR04"
-			(at 114.3 130.81 0)
+			(at 115.57 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3240,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 128.27 0)
+			(at 115.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 124.46 0)
+			(at 115.57 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 124.46 0)
+			(at 115.57 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 124.46 0)
+			(at 115.57 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3498,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3µ"
 			(at 80.01 47.625 90)
 			(effects
 				(font
@@ -3834,7 +3834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 69.215 95.25 0)
 			(effects
 				(font
@@ -4098,7 +4098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1µ"
 			(at 170.815 120.65 0)
 			(effects
 				(font
@@ -4232,7 +4232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 180.975 120.65 0)
 			(effects
 				(font
@@ -4301,7 +4301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 191.135 120.65 0)
 			(effects
 				(font
@@ -4768,7 +4768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1µ"
 			(at 219.71 99.695 0)
 			(effects
 				(font
@@ -4837,7 +4837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1µ"
 			(at 219.71 104.775 0)
 			(effects
 				(font
@@ -5040,7 +5040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "470p"
 			(at 217.17 69.215 0)
 			(effects
 				(font
@@ -5109,7 +5109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1n"
 			(at 241.935 82.55 0)
 			(effects
 				(font
@@ -5178,7 +5178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100p"
 			(at 234.315 82.55 0)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "470p"
 			(at 179.07 61.595 0)
 			(effects
 				(font
@@ -5450,7 +5450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1n"
 			(at 203.835 74.93 0)
 			(effects
 				(font
@@ -5519,7 +5519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100p"
 			(at 196.215 74.93 0)
 			(effects
 				(font

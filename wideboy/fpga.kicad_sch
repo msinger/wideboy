@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Wide-Boy64 AGB")
-		(date "2024-06-20")
-		(rev "2")
+		(date "2024-09-22")
+		(rev "3")
 		(company "CC-BY-SA-4.0 Michael Singer")
 		(comment 1 "https://github.com/msinger/wideboy/")
 		(comment 2 "http://iceboy.a-singer.de/")
@@ -10862,7 +10862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 107.315 166.37 0)
 			(effects
 				(font
@@ -10931,7 +10931,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 117.475 166.37 0)
 			(effects
 				(font
@@ -11000,7 +11000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 127.635 166.37 0)
 			(effects
 				(font
@@ -11069,7 +11069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 137.795 166.37 0)
 			(effects
 				(font

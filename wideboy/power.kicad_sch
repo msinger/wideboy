@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Wide-Boy64 AGB")
-		(date "2024-06-20")
-		(rev "2")
+		(date "2024-09-22")
+		(rev "3")
 		(company "CC-BY-SA-4.0 Michael Singer")
 		(comment 1 "https://github.com/msinger/wideboy/")
 		(comment 2 "http://iceboy.a-singer.de/")
@@ -2700,6 +2700,17 @@
 		)
 		(uuid "fb964f03-6f3b-489d-a0ee-40b643143e97")
 	)
+	(text "D1, D2, D3 are labeled Toshiba \"77B 1*B\"\nI measured ~0.54 V forward drop."
+		(exclude_from_sim no)
+		(at 53.086 122.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f4bf794-edc3-499a-9bbb-252e43d7fa14")
+	)
 	(symbol
 		(lib_id "Regulator_Linear_Sharp_PQxxRxxx:PQ30RV21")
 		(at 78.74 86.36 0)
@@ -3331,7 +3342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 53.975 113.03 0)
 			(effects
 				(font
@@ -3400,7 +3411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 84.455 113.03 0)
 			(effects
 				(font
@@ -3530,14 +3541,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060e63d25")
 		(property "Reference" "D1"
-			(at 64.77 101.6 0)
+			(at 64.77 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "~0.54V"
 			(at 64.77 106.68 0)
 			(effects
 				(font
@@ -3688,7 +3699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 117.475 113.03 0)
 			(effects
 				(font
@@ -3756,7 +3767,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "~0.54V"
 			(at 128.27 106.68 0)
 			(effects
 				(font
@@ -3842,7 +3853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 147.955 113.03 0)
 			(effects
 				(font
@@ -4179,7 +4190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 180.975 113.03 0)
 			(effects
 				(font
@@ -4247,7 +4258,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "~0.54V"
 			(at 191.77 106.68 0)
 			(effects
 				(font
@@ -4333,7 +4344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "150n"
 			(at 211.455 113.03 0)
 			(effects
 				(font
